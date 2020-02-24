@@ -1,0 +1,31 @@
+<header class="container-fluid">
+  <div class="row">
+    <div class="col-sm-9 logo py-2">Digital Music Library</div>
+    <div class="col-sm-3 d-flex"><a routerLink='admin' rounterLinkActive='active' class="float-right">Login</a></div>
+    <div class="col-sm-12">
+        <img src="./assets/images/DML_header.jpg" alt="Digital Music Library"/>
+    </div>
+  </div>
+  
+</header>
+<section class="container-fluid">
+<div class="row">
+  <div class="col-sm-12">
+      <!-- <app-albumlist></app-albumlist> -->
+      <router-outlet></router-outlet>
+  </div>
+    
+</div>
+</section>
+<footer class="container-fluid">
+    <div class="row">
+      <div class="col-sm-9 py-2">Digital Music Library</div>
+      <div class="col-sm-3 py-2 d-flex justify-content-end">
+        <div>Copyright @2020</div>
+      </div>
+    </div>
+    
+</footer>
+
+
+

@@ -1,0 +1,56 @@
+  .addBtn {
+    background:green;
+    border:none;
+    height:32px;
+    margin-top:20px;
+    color:#ffffff;
+    font-weight:bold;
+    width:180px;
+  }
+  
+  .editBtn {
+    background:blue;
+    border:none;
+    color:#ffffff;
+    font-weight:bold;
+    height:22px;
+    width:60px;
+  }
+  
+  .deleteBtn {
+    background:red;
+    border:none;
+    color:#ffffff;
+    font-weight:bold;
+    height:22px;
+    width:60px;
+  
+  }
+
+  .editor {
+      .table {
+          tbody {
+              img {
+                  width: 100px;
+                  height: 100px;
+              }
+          }
+      }
+  }
+
+  .imageUpload {
+      img {
+          width: 50px;
+          height: 50px;
+          border: 1px solid #000;
+      }
+  }
+
+  select {
+    &.userFilter {
+      option {
+        min-height: auto;
+      }
+  }
+}
+  
